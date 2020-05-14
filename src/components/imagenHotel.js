@@ -49,8 +49,8 @@ const ImagenHotel = () => {
     return ( 
         <ImageBackground tag="section" fluid={image.sharp.fluid} fadeIn="soft" >
             <TextoImagen>
-                <h1>Bienvenido a Hotel Gatsby</h1>
-                <p>El mejor hotel para tus vacaciones</p>
+                <h1>Bienvenido a El Campillo</h1>
+                <p>El mejor alojamiento para tus vacaciones</p>
             </TextoImagen>
         </ImageBackground>
     );
