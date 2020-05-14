@@ -38,7 +38,7 @@ const Footer = ({title}) => {
 
                 <EnlaceHome
                     to='/'
-                ><h1>Alojamiento El Campillo</h1> </EnlaceHome>
+                ><h1>El Campillo</h1> </EnlaceHome>
             </div>
         </footer>
         <p
