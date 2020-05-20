@@ -37,7 +37,7 @@ const IndexPage = () => {
             margin-top: 5rem;
             font-size: 3rem;
           `}
-        >Nuestras Habitaciones
+        >Nuestros Vinos
         </h2>
 
         <ListadoHabitaciones>

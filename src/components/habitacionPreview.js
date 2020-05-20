@@ -25,11 +25,19 @@ const HabitacionPreview = ({habitacion}) => {
         <div
             css={css`
                 border: 1px solid #e1e1e1;
+                padding-top: 2rem;
                 margin-bottom: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             `}
         >
             <Image
                 fluid={imagen.fluid}
+                css={css`
+                    width: 100px;
+                    `}
             />
             <div
                 css={css`

@@ -21,6 +21,9 @@ const Footer = ({title}) => {
                 background-color: rgb(0,0,0);
                 margin-top: 5rem;
                 padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             `}
         >
             <div
@@ -36,11 +39,12 @@ const Footer = ({title}) => {
             >
                 <Navegacion />
 
-                <EnlaceHome
+                {/* <EnlaceHome
                     to='/'
-                ><h1>Bodega Campos de Castilla</h1> </EnlaceHome>
+                ><h1>Bodega Campos de Castilla</h1> </EnlaceHome> */}
             </div>
         </footer>
+
         <p
             css={css`
                 text-align: center;
@@ -48,6 +52,7 @@ const Footer = ({title}) => {
                 background-color: rgb(0,0,0);
                 margin: 0;
                 padding: 1rem;
+
             `}
         >
           &copy; {year} {title}. Todos los derechos Reservados  

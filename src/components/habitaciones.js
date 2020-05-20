@@ -11,7 +11,7 @@ export const query = graphql`
                     titulo
                     contenido
                     imagen {
-                    fluid(maxWidth:1200) {
+                    fluid(maxWidth:600) {
                         ...GatsbyDatoCmsFluid
                     }
                 }
@@ -31,6 +31,10 @@ const HabitacionTemplate = ({data: { allDatoCmsHabitacion: { nodes } }}) => {
                     margin: 0 auto;
                     max-width: 1200px;
                     width: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                 `}
             >
                 <h1
@@ -42,6 +46,9 @@ const HabitacionTemplate = ({data: { allDatoCmsHabitacion: { nodes } }}) => {
                 <p>{contenido}</p>
                 <Image 
                     fluid={imagen.fluid}
+                    css={css`
+                    width: 100px;
+                    `}
                 />
             </main>
         </Layout>
