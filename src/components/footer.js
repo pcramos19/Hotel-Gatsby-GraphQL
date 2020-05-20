@@ -18,7 +18,7 @@ const Footer = ({title}) => {
         <>
         <footer
             css={css`
-                background-color: rgba(44,62,80);
+                background-color: rgb(0,0,0);
                 margin-top: 5rem;
                 padding: 1rem;
             `}
@@ -38,19 +38,19 @@ const Footer = ({title}) => {
 
                 <EnlaceHome
                     to='/'
-                ><h1>El Campillo</h1> </EnlaceHome>
+                ><h1>Bodega Campos de Castilla</h1> </EnlaceHome>
             </div>
         </footer>
         <p
             css={css`
                 text-align: center;
                 color: #fff;
-                background-color: rgb(33,44,55);
+                background-color: rgb(0,0,0);
                 margin: 0;
                 padding: 1rem;
             `}
         >
-            {title}. Todos los derechos Reservados {year} &copy;
+          &copy; {year} {title}. Todos los derechos Reservados  
         </p>
         </>
      );

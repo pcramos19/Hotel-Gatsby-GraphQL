@@ -32,7 +32,7 @@ const Header = () => {
             >
                 <EnlaceHome
                     to='/'
-                ><h1>El Campillo</h1> </EnlaceHome>
+                ><h1>Bodega Campos de Castilla</h1> </EnlaceHome>
                 
 
                 <Navegacion />

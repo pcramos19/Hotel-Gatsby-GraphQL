@@ -7,7 +7,7 @@ import { Link } from 'gatsby';
 const Boton = styled(Link)`
     margin-top: 2rem;
     padding: 1rem;
-    background-color: rgba(44,62,80,.85);
+    background-color: rgb(0,0,0);
     width: 100%;
     color: #FFF;
     display: block;
@@ -39,11 +39,12 @@ const HabitacionPreview = ({habitacion}) => {
                 <h3
                     css={css`
                         font-size: 3rem;
+                        text-align: center;
                     `}
                 >{titulo}</h3>
-                <p>{contenido}</p>
+                {/* <p>{contenido}</p> */}
 
-                <Boton to={slug}>Ver Habitación</Boton>
+                <Boton to={slug}>Más información</Boton>
             </div>
         </div>
      );

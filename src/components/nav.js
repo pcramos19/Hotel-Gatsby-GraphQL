@@ -38,7 +38,7 @@ const Navegacion = () => {
             <NavLink 
                 to={'/nosotros'}
                 activeClassName="pagina-actual"
-            >Nosotros</NavLink>
+            >Sobre nosotros</NavLink>
         </Nav>
      );
 }
